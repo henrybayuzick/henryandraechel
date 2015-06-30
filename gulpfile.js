@@ -23,7 +23,7 @@ gulp.task('scripts', function() {
     return gulp.src(['./js/vendor/*.js','./js/*.js','!./js/all.min.js'])
         .pipe(concat('all.js'))
         .pipe(rename({suffix: '.min'}))
-        //.pipe(uglify())
+        .pipe(uglify())
         .pipe(gulp.dest('./js'))
         .pipe(notify({message: "Scripts task completed."}));
 });

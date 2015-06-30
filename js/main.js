@@ -48,8 +48,6 @@ $('[data-coming]').change(function(){
 	}
 });
 
-
-
 var names = [
    { value: 'Morgan Callender', data: 'Morgan Callender' },
    { value: 'The Snyder Family', data: 'The Snyder Family' },
@@ -89,8 +87,6 @@ var names = [
    { value: 'Maia Bayuzick', data: 'Maia Bayuzick' },
    { value: 'Nancy Bayuzick-Gallagher', data: 'Nancy Bayuzick-Gallagher' },
    { value: 'David & Katie White', data: 'David & Katie White' },
-  
-
 ];
 
 $('[data-name]').autocomplete({
