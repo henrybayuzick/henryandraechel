@@ -1,0 +1,44 @@
+.btn {
+  color: $dark-gray;
+  font-family: inherit;
+  font-size: 1.143rem;
+  letter-spacing: .08rem;
+  padding: $space $space*2.8;
+  text-transform: uppercase;
+  border:0;
+  background: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.btn-seafoam {
+  background: $seafoam;
+  color: $white;
+
+  &:hover {
+    color: $white; 
+    background: #9ECCB6; 
+  }
+}
+
+.btn-dark-blue {
+  color: $white;
+  background:#374158;
+  border:2px solid #374158;
+  -webkit-box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.2);
+  box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.2);
+}
+
+.btn-dark-blue:active {
+  box-shadow: none;
+}
+
+.btn-outlined {
+  color:$white;
+  border:2px solid $white;
+
+}
+
+a.btn { text-decoration: none; }
