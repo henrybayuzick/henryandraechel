@@ -89,8 +89,6 @@ var names = [
    { value: 'Maia Bayuzick', data: 'Maia Bayuzick' },
    { value: 'Nancy Bayuzick-Gallagher', data: 'Nancy Bayuzick-Gallagher' },
    { value: 'David & Katie White', data: 'David & Katie White' },
-  
-
 ];
 
 $('[data-name]').autocomplete({
