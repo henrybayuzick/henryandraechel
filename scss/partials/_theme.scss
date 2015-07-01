@@ -91,6 +91,10 @@
 	display:none;
 }
 
+.show-sm {
+	display:none;
+}
+
 @media all and (max-width: 768px) {
 	.hide-md {
 		display: none;
@@ -101,6 +105,19 @@
 	}
 }
 
+@media all and (max-width: 450px) {
+	.hide-sm {
+		display:none;
+	}
+	.show-sm {
+		display:block;
+	}
+}
+
 form {
 	text-align: left;
+}
+
+form a {
+	color: $white;
 }
