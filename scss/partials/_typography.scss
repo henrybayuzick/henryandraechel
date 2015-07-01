@@ -3,6 +3,30 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
+@media (max-width: 1000px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 850px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 850px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 14px;
+  }
+}
+
 body {
   font-family: $font-family-1;
   line-height: $base-line-height;
@@ -24,6 +48,7 @@ h4, {
 
 h2 {
   font-size: 2.286rem;
+  line-height: 1.2;
 }
 
 h3 {

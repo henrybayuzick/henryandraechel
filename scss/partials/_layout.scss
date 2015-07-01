@@ -14,6 +14,14 @@ html, body {
   margin:0 auto;
 }
 
+@media all and (max-width: 768px) {
+  .container {
+    text-align: center;
+  }
+}
+
+
+
 .section-first {
   height:100%;
 }
@@ -56,7 +64,6 @@ html, body {
     float:none;
     display:block;
     padding:0;
-    margin-bottom:$space;
     text-align:center;
   }
 

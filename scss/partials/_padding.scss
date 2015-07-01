@@ -43,3 +43,10 @@
 .pl5 { padding-left: 4*$space; } 
 .px5 { padding-right: 4*$space; padding-left: 4*$space; }
 .py5 { padding-top: 4*$space; padding-bottom: 4*$space; }
+
+@media all and (max-width: 768px) {
+	.pl4,
+	.pl5 {
+		padding-left:0;
+	}
+}
