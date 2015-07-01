@@ -33,6 +33,12 @@ html, body {
   visibility: hidden;
 }
 
+@media all and (max-width: 768px) {
+  .header-offset {
+    top: -46px;
+  }
+}
+
 .col-group {
   &:after {
     content: "";
