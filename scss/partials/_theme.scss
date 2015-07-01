@@ -28,13 +28,18 @@
 }
 
 .input:disabled {
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
 	color: $gray;
-	background: $light-gray
+	background: $light-gray;
 }
 
 .select {
+	background: $white;
 	display:inline-block;
 	position: relative;
+	border-radius: 5px;
 }
 
 .select-arrow {
@@ -46,8 +51,9 @@
 	border-top: 10px solid $gray;
 
 	position: absolute;
-	right: 0;
-	top:42px;
+  	top: 50%;
+  	right:0;
+  	transform: translateY(-50%);
 }
 
 .autocomplete-suggestions {
