@@ -47,6 +47,8 @@
 	position: absolute;
 	right: 0;
 	top:42px;
+
+	pointer-events: none;
 }
 
 .autocomplete-suggestions {
