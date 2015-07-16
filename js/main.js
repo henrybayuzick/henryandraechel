@@ -95,6 +95,7 @@ $('[data-masonry]').imagesLoaded().progress( function() {
      { value: 'Maia Bayuzick', data: 'Maia Bayuzick' },
      { value: 'Nancy Bayuzick-Gallagher', data: 'Nancy Bayuzick-Gallagher' },
      { value: 'David & Katie White', data: 'David & Katie White' },
+     { value: 'Denny & Gabba', data: 'Denny & Gabba' },
   ];
 
   $('[data-name]').autocomplete({
